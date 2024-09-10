@@ -3,6 +3,7 @@ require_once "connection.php";
 
 // echo "<pre>";
 // print_r($_SESSION['user']);
+
 if (!isset($_SESSION['user'])) {
     header('Location:index.php');
 }
